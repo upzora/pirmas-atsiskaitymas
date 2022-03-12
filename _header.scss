@@ -1,0 +1,78 @@
+
+@mixin soon {
+    font-family: $mainfont;
+    color: $fancycolor;
+    font-size: small;
+    font-weight: 800;
+}
+
+.meniu{
+    padding: $mainpadding;
+    display: flex;
+    justify-content: space-between;
+
+
+   .menu{
+       height: 35px;
+       opacity: 0.5;
+    }
+
+    ul{
+        list-style: none;
+        display: none;
+    
+    }
+
+    ul li{
+        display: inline-block;
+        padding: 0 1rem;
+    }
+    ul li a{
+        text-decoration: none;
+        color: $textblack;
+    }
+ 
+}
+.menu:hover{
+    transform: scale(1.3);
+}
+
+.info{
+    padding: $mainpadding;
+
+    .left{
+        width: 50%;
+        display: inline-block;
+        }
+        h1{
+            font-weight: 900;
+            font-size: 29px;
+        }
+        p{
+            color: $textgrey;
+        }
+    .right{
+        width: 48%;
+        display: inline-block;
+        margin-top: -30px;
+
+    }
+    .soon{
+       @include soon
+    }
+    img{
+       width: 400px;
+    }
+    .button{
+        margin-top: 1rem;
+        padding: 1rem 3rem;
+        border-radius: 4rem;
+        background-color: white;
+        border: 3px solid rgba(255, 0, 0, 0.644);
+        cursor: pointer;
+      }
+      .button:hover{
+          border: 3px solid red;
+          box-shadow: 1px 2px 5px $textgrey;
+      }
+    } 

@@ -1,0 +1,65 @@
+
+.sociale{
+    margin: $mainmargin;
+    color: $textgrey;
+}
+.sociale-links a img{
+    max-height: 30px;
+    opacity: 0.5;
+    padding-right: 1rem;
+}
+.sociale-links a img:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+.dubletable {
+    text-align: left;
+    color: $textgrey;
+    font-size: 20px;
+    margin: $mainmargin;
+    display: inline-block;
+}
+.linkstable1 a{
+    text-decoration: none;
+    color: $textgrey;
+    padding-right: 6rem;
+    padding-bottom: 0.5rem;
+}
+.linkstable1 a:hover{
+    color: rgb(37, 31, 31);
+}
+.linkstable2 a{
+    text-decoration: none;
+    color: $textgrey; 
+    padding-right: 5rem;
+    padding-bottom: 0.5rem;
+}
+.linkstable2 a:hover{
+    color:rgb(37, 31, 31);
+}
+.linkstable1{
+    display: inline;
+}
+.linkstable2{
+    display: inline;
+}
+footer img{
+    width: 20px;
+    padding-right: 0.5rem;
+}
+.linkstable1 tr th{
+    padding-bottom: 1rem;
+}
+.linkstable2 tr th{
+    padding-bottom: 1rem;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    margin: $mainmargin;
+    padding-top: 3rem;
+    color: $textgrey;
+    font-size: 13px;
+}

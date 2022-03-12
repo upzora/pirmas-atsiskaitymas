@@ -1,0 +1,88 @@
+@import './variables';
+@import './header';
+@import './main';
+@import './card';
+@import './ending';
+
+body{
+    font-family: $mainfont;
+}
+hr{
+    opacity: 0.2;
+}
+
+.upsell{
+    height: 350px;
+    padding-top: 4rem;
+    margin-left: -30px;
+    margin-bottom: -63px;   
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 786px) {
+            .menu{
+                display: none;
+            }
+ 
+            ul{
+                list-style: none;
+                display: block;
+            }
+            .info{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .info img{
+                width: 550px;
+            }
+            header .info .left h1{
+                font-weight: 900;
+                font-size: 55px;
+            }
+            .red{
+                margin: $mainmargin;
+                border-radius: 10px;
+            }
+            .companies{
+                margin: $mainmargin;
+            }
+            .brands{
+                display: flex;
+                justify-content: space-between;
+            }
+    
+            .brands a img{
+               height: 30px;  
+            }
+            .cards-section{
+                display: flex;
+                justify-content: space-around;
+            }
+            .upsell{
+                padding-bottom: 19px;
+            }
+            .ending{
+                display: flex;
+                justify-content: space-between;
+            
+            }
+             .linkstable1 a{
+                 padding: 0;
+            }
+             .linkstable2 a{
+                padding: 0;
+            }
+          
+          
+}
+      
+
+        
+ 
+  

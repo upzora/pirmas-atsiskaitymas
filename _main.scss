@@ -1,0 +1,48 @@
+
+.red{
+    margin-top: 3rem;
+    background-image: url(./background.svg);
+    background-size: cover;
+   
+}
+.info2{
+    margin: $mainmargin;
+    padding: 3rem 0;
+    width: 230px;
+}
+h2{
+    font-size: 20px;
+
+}
+.companies{
+     margin: $mainmargin;
+}
+.brands{
+    display: grid;
+    grid-template-columns: auto auto;
+   
+}
+.brands a{
+    padding: 1rem;
+}
+.brands a:hover{
+    background-color: rgb(255, 199, 199);
+    border-radius: 12px;
+}
+.brands a img{
+    padding: 1rem 1rem 1rem 0;
+}
+.auction{
+    margin: $mainmargin;
+    
+}
+.content p{
+    color: $textgrey;
+    span a{
+        color: $textgrey;
+    }
+    span a:hover{
+        color: $fancycolor;
+    }
+}
+
